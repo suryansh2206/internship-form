@@ -69,7 +69,7 @@
   padding: 5px;
 }
 .iconContainer {
-    display: flex;
+  display: flex;
 }
 
 .iconbox {
@@ -92,9 +92,20 @@
 
 .cardContainer {
   margin-top: 20%;
+  margin-bottom: 30%;
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
   gap: 20px; /* Gap between cards */
   justify-items: center; /* Center horizontally */
   padding: 0 20px; /* Add some horizontal padding for left and right space */
+}
+
+.buttonContainer {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+  gap: 20px; /* Adjust the gap as needed for spacing */
+  justify-items: center;
+  padding: 0 20px;
+  margin-top: 5em; /* Adjust the margin-top to position the buttons above the cards */
 }
